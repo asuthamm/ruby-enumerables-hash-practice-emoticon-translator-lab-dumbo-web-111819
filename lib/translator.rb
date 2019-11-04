@@ -23,8 +23,7 @@ def get_japanese_emoticon(file_path,jp_emoji)
   emoji =  hash[:get_emoticon][jp_emoji]
   
   return emoji if !!emoji 
-  return "Sorry, that emoticon was not found"  
-  
+  "Sorry, that emoticon was not found"  
 end
 
 
