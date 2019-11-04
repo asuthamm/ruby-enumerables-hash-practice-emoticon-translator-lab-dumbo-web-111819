@@ -20,12 +20,12 @@ end
 
 def get_japanese_emoticon(file_path,west_emoji)
   hash = load_library(file_path)
-  jp_emoji =  hash[:get_emoticon][west_emoji]
+  emoji =  hash[:get_emoticon][west_emoji]
   
-  return emoji if !!jp_emoji 
+  return emoji if !!emoji 
   "Sorry, that emoticon was not found"  
 end
-_
+
 
 def get_english_meaning(file_path,jp_emoji)
 
